@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+:root {
+    --past: red;
+    --present: blue;
+    --future: green;
+}
+
+header {
+    font-size: 45px;
+    text-align: center;
+}
+
+#intro {
+
+    font-size: 17px;
+    text-align: center;
+}
+
+#todays-date {
+    font-size: 20px;
+    text-align: center;
+}
