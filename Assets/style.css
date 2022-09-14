@@ -6,6 +6,7 @@
     --past: red;
     --present: blue;
     --future: green;
+    --vscode: #252934;
 }
 
 header {
@@ -19,7 +20,43 @@ header {
     text-align: center;
 }
 
+
 #todays-date {
     font-size: 20px;
     text-align: center;
 }
+
+/* .line-color {
+    text-align: center;
+    width: 500px;
+    height: 5px;
+    background-color: var(--vscode);
+    display: inline-block;
+   
+} */
+
+.main-content {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.time-content-save {
+    font-size: 20px;
+}
+
+#text-content {
+    padding: 15px;
+}
+
+button {
+    color:blueviolet;
+}
+
+#save-btn {
+    color: var(--vscode);
+    padding: 15px;
+}
+
