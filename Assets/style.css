@@ -1,11 +1,12 @@
 * {
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
 :root {
-    --past: red;
-    --present: blue;
-    --future: green;
+    --past: rgba(255, 0, 0, 0.342);
+    --present: rgba(0, 0, 255, 0.342);
+    --future: rgba(0, 128, 0, 0.342);
     --vscode: #252934;
 }
 
@@ -15,13 +16,16 @@ header {
 }
 
 #intro {
-
+    display: flex;
+    flex-direction: column;
     font-size: 17px;
     text-align: center;
 }
 
 
 #todays-date {
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
     text-align: center;
 }
@@ -35,9 +39,8 @@ header {
    
 } */
 
-.main-content {
+.schedule-content {
     display: flex;
-    /* text-align: center; */
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -45,18 +48,34 @@ header {
 
 .time-content-save {
     font-size: 20px;
+    width: 65%;
 }
 
-#text-content {
-    padding: 15px;
+
+#time {
+    font-size: 35px;
+    margin: 10px;
 }
+
+TODO: /** ADD COLORING HOVER EFFECTS TO TEXTBOX */
+
+.text-area {
+    font-size: 16px;
+    width: 700px;
+    height: 100px;
+}
+
+TODO: /** ADD COLORING AND HOVER EFFECTS TO BUTTONS*/
 
 button {
-    color:blueviolet;
+    /* color: blueviolet; */
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 
 #save-btn {
-    color: var(--vscode);
-    padding: 15px;
+    /* padding: 15px; */
 }
 
