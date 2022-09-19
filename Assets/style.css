@@ -52,12 +52,12 @@ header {
 }
 
 
-#time {
-    font-size: 35px;
-    margin: 10px;
-}
 
 TODO: /** ADD COLORING HOVER EFFECTS TO TEXTBOX */
+
+.text-col {
+    width: 700px;
+}
 
 textarea {
     font-size: 16px;
@@ -79,3 +79,8 @@ button {
     /* padding: 15px; */
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
