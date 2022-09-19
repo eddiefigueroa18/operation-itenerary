@@ -59,7 +59,7 @@ header {
 
 TODO: /** ADD COLORING HOVER EFFECTS TO TEXTBOX */
 
-.text-area {
+textarea {
     font-size: 16px;
     width: 700px;
     height: 100px;
