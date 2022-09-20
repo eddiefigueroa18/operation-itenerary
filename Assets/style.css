@@ -6,7 +6,7 @@
 :root {
     --past: rgba(255, 0, 0, 0.342);
     --present: rgba(88, 88, 255, 0.342);
-    --future: rgba(0, 128, 0, 0.342);
+    --future: rgba(187, 187, 187, 0.397);
     --vscode: #252934;
 }
 
@@ -46,17 +46,8 @@ header {
     margin-right: 100px;
 }
 
-.time-content-save {
-    font-size: 20px;
-    width: 65%;
-}
-
-
-
-TODO: /** ADD COLORING HOVER EFFECTS TO TEXTBOX */
-
-.text-col {
-    width: 700px;
+.time-value {
+    font-size: 25px;
 }
 
 textarea {
@@ -64,16 +55,6 @@ textarea {
     width: 700px;
     height: 100px;
 }
-
-TODO: /** ADD COLORING AND HOVER EFFECTS TO BUTTONS*/
-
-/* .save {
-    height: 75px;
-} */
-
-/* img {
-    height: 75px;
-} */
 
 footer {
     display: flex;
