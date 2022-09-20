@@ -15,7 +15,9 @@ This web application is meant as an easy to use schedule. A user can type whatee
 ![](./Assets/Images/code%20screenshot.png)
 
 ## Deplyed link 
-[Deployed Webpage]
+[Deployed Webpage](https://eddiefigueroa18.github.io/operation-itenerary/)
 
 ## Credits 
 Eduardo Figueroa 
+
+[Git Profile](https://github.com/eddiefigueroa18/operation-itenerary)
